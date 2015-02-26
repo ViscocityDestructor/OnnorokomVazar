@@ -162,16 +162,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201502260604512_vazardb.cs" />
-    <Compile Include="Migrations\201502260604512_vazardb.Designer.cs">
-      <DependentUpon>201502260604512_vazardb.cs</DependentUpon>
+    <Compile Include="Migrations\201502262213321_mydb.cs" />
+    <Compile Include="Migrations\201502262213321_mydb.Designer.cs">
+      <DependentUpon>201502262213321_mydb.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\AccountBindingModels.cs" />
-    <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Category.cs" />
+    <Compile Include="Models\ImageForProduct.cs" />
     <Compile Include="Models\Location.cs" />
-    <Compile Include="Models\OrderedList.cs" />
+    <Compile Include="Models\OrderList.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\ProductReview.cs" />
     <Compile Include="Models\SubCategory.cs" />
@@ -239,8 +238,8 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201502260604512_vazardb.resx">
-      <DependentUpon>201502260604512_vazardb.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201502262213321_mydb.resx">
+      <DependentUpon>201502262213321_mydb.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

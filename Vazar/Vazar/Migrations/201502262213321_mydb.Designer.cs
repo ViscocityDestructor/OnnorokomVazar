@@ -7,13 +7,13 @@ namespace Vazar.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.0.0-20911")]
-    public sealed partial class vazardb : IMigrationMetadata
+    public sealed partial class mydb : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(vazardb));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(mydb));
         
         string IMigrationMetadata.Id
         {
-            get { return "201502260604512_vazardb"; }
+            get { return "201502262213321_mydb"; }
         }
         
         string IMigrationMetadata.Source

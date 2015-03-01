@@ -53,5 +53,5 @@ D:\atiiucProjects\PROJECT\Project3\Vazar\Vazar\bin\Microsoft.Owin.Security.Micro
 D:\atiiucProjects\PROJECT\Project3\Vazar\Vazar\obj\Debug\Vazar.dll
 D:\atiiucProjects\PROJECT\Project3\Vazar\Vazar\obj\Debug\Vazar.pdb
 D:\atiiucProjects\PROJECT\Project3\Vazar\Vazar\obj\Debug\Vazar.csprojResolveAssemblyReference.cache
-D:\atiiucProjects\PROJECT\Project3\Vazar\Vazar\obj\Debug\Vazar.Migrations.mydb.resources
+D:\atiiucProjects\PROJECT\Project3\Vazar\Vazar\obj\Debug\Vazar.Migrations.vazardb.resources
 D:\atiiucProjects\PROJECT\Project3\Vazar\Vazar\obj\Debug\Vazar.csproj.GenerateResource.Cache

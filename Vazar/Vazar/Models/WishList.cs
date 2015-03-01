@@ -12,6 +12,5 @@ namespace vazarApp.Models
         public int ProductId { set; get; }
         public User User { set; get; }
         public Product Product { set; get; }
-       
     }
 }

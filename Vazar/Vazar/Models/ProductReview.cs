@@ -1,6 +1,9 @@
-﻿using vazarApp.Models;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
 
-namespace Vazar.Models
+namespace vazarApp.Models
 {
     public class ProductReview
     {
@@ -11,7 +14,7 @@ namespace Vazar.Models
         public int UserId { set; get; }
         public Product Product { set; get; }
         public User User { set; get; }
-       
+
 
     }
 }

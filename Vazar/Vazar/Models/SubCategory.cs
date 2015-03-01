@@ -10,7 +10,6 @@ namespace vazarApp.Models
         public int SubCategoryId { set; get; }
         public string Name { set; get; }
         public int CategoryId { set; get; }
-        
         public Category Category { set; get; }
         public ICollection<Product> Products { set; get; }
 

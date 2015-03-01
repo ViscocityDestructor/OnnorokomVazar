@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
-using Vazar.Models;
 
 namespace vazarApp.Models
 {
@@ -13,15 +12,18 @@ namespace vazarApp.Models
         public int ProductId { set; get; }
         [Required]
         public string Title { set; get; }
-      
+        public string ImagePath { set; get; }
+        public string Specification { set; get; }
         public string Description { set; get; }
         public int Quantity { set; get; }
         public double Price { set; get; }
-      
-        public int SubCategoryId { set; get; }
-       
+        public int CatagoryId { set; get; }
+        public int SubCatagoryId { set; get; }
+        public Category Category { set; get; }
         public SubCategory SubCategory { set; get; }
-        public ICollection<ImageForProduct> ImageForProducts { set; get; }
+        public ICollection<ProductReview> ProductReviews { set; get; }
+        public ICollection<WishList> WishLists { set; get; }
+        public ICollection<OrderedList> OrderedLists { set; get; } 
 
     }
 }

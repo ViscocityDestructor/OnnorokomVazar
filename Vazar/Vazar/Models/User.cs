@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
-using Vazar.Models;
 
 namespace vazarApp.Models
 {
@@ -17,12 +16,12 @@ namespace vazarApp.Models
         public string Password { set; get; }
         public int MobileNo { set; get; }
         [Display(Name="Seller/Buyer")]
-        public string Role { set; get; }
-       
+        public bool IsBuyer { set; get; }
+        public int LocationId { set; get; }
         public Location Location { set; get; }
         public ICollection<ProductReview> ProductReviews { set; get; }
         public ICollection<WishList> WishLists { set; get; }
-        public ICollection<OrderList> OrdereLists { set; get; } 
+        public ICollection<OrderedList> OrderedLists { set; get; } 
       
         
     }
